@@ -1,9 +1,8 @@
 <?php
 class NumericInput extends TextInput{
-	public $value;
 	public function add($input){
-		if(!is_string($input)){
-			$this->value+=$input;
+		if(is_numeric($input)){
+			$this->value.=$input;
 		}
 	}
 }

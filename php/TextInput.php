@@ -1,6 +1,6 @@
 <?php
 class TextInput{
-	public $value ="";
+	public $value;
 	public function add($input){
 		$this->value.=$input." ";
 	}
